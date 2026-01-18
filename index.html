@@ -8,7 +8,7 @@
   <!-- Canonical & SEO -->
   <link rel="canonical" href="https://www.artisfinishing.com/" />
   
-  <!-- Favicons (upload your generated files) -->
+  <!-- Favicons -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,8 +39,8 @@
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; color: #212529; overflow-x: hidden; }
     .hero { position: relative; min-height: 80vh; background: url('/festival-mood-1.jpg') center/cover no-repeat; color: white; text-shadow: 1px 1px 4px rgba(0,0,0,0.8); }
-    .hero-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; }
-    .logo-img { max-height: 100px; width: auto; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.45)); display: flex; align-items: center; justify-content: center; }
+    .logo-img { max-height: 100px; width: auto; display: block; margin: 0 auto 1rem; }
     .cta-box { background: #000; color: #fff; border-radius: 12px; padding: 2rem; max-width: 500px; margin: 0 auto; }
     .btn-light { transition: all 0.3s; }
     .btn-light:hover { background: #e0e0e0; color: #000; transform: translateY(-2px); }
@@ -63,7 +63,9 @@
   <section class="hero">
     <div class="hero-overlay">
       <div class="container text-center">
-        <img src="/logo-1.jpg" alt="ArtIsFinishing Logo - Guitar & Frozen Chicken Box" class="logo-img mb-3" loading="lazy"/>
+        <a href="/">
+          <img src="/logo-1.jpg" alt="ArtIsFinishing Logo – Guitar meets Frozen Chicken Box" class="logo-img" loading="lazy"/>
+        </a>
         <p class="lead mt-2 fs-4">The stage is temporary.<br/>The freezer is forever.</p>
       </div>
     </div>
